@@ -14,9 +14,9 @@ import facebook
 #   secret = toml.load(f)
 #with open('C:\Users\theli\OneDrive\Desktop\PLACEMENT PRACTICE\Chatbot\Team6\secret.toml', 'r') as f:
 #    secret=toml.load(f)
-with open('C:\\Users\\theli\\OneDrive\\Desktop\\PLACEMENT PRACTICE\\Chatbot\\Team6\\secert.toml', 'r') as f:
-    secret=toml.load(f)
-openai_secret_key = secret['openai']["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"]
+with open('C:\\Users\\theli\\OneDrive\\Desktop\\PLACEMENT PRACTICE\\Chatbot\\Team6\\secret.toml', 'r') as f:
+    secret = toml.load('secret.toml')
+#openai_secret_key = secret['openai']["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"]
 
    
 # Authenticate with YouTube API
